@@ -16,7 +16,7 @@ public class IndexActivity extends AppCompatActivity {
 
         button= findViewById(R.id.btn_mulai);
         button.setOnClickListener(v -> {
-            Intent intent = new Intent(IndexActivity.this, MainActivity.class);
+            Intent intent = new Intent(IndexActivity.this, Loading.class);
             startActivity(intent);
         });
     }
